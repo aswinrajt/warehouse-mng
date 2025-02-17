@@ -27,7 +27,7 @@ function Dashboard() {
     };
 
     if (loading) {
-        return <p>Loading products......</p>;
+        return <p>Loading the products......</p>;
     }
 
     if (error) {
